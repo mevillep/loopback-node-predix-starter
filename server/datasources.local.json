@@ -1,0 +1,11 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "lb_api_db",
+    "password": "secret",
+    "name": "postgres",
+    "user": "my_user",
+    "connector": "postgresql"
+  }
+}

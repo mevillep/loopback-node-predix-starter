@@ -1,0 +1,9 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer"
+  },
+  "loopback-component-model-diagram": {
+    "mountPath": "/model-view"
+  }
+
+}

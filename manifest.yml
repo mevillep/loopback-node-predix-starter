@@ -1,0 +1,8 @@
+---
+applications:
+- name: scc_node_server
+  command: npm start
+  memory: 256M
+
+services:
+ - dev_postgres_local

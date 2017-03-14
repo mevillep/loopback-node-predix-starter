@@ -1,0 +1,10 @@
+{
+  "extends": "loopback",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "strict": ["error", "never"]
+  }
+}

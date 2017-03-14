@@ -1,0 +1,38 @@
+{
+  "name": "lb-sample",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check",
+    "sdk:angular2": "./node_modules/.bin/lb-sdk server/server.js client/ -l angular2 -d ng2web -i disabled"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^1.3.0",
+    "loopback": "^3.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^4.0.0",
+    "loopback-component-model-diagram": "^0.3.0",
+    "loopback-connector-postgresql": "^2.7.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^1.0.1"
+  },
+  "devDependencies": {
+    "@mean-expert/loopback-sdk-builder": "^2.1.0-rc.8.3",
+    "eslint": "^2.13.1",
+    "eslint-config-loopback": "^4.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "Seed Project for Loopback on the Predix Platform",
+  "engines": {
+    "node": "6.5.0"
+  }
+}
